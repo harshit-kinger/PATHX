@@ -277,42 +277,6 @@ PATHX
 
 ---
 
-# 📸 Screenshots
-
-Create a folder named
-
-```
-screenshots
-```
-
-and add images like
-
-```
-dashboard.png
-navigation.png
-analytics.png
-algorithm-lab.png
-traffic.png
-graph-explorer.png
-```
-
-Then display them using
-
-```md
-## Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-## Navigation Engine
-
-![Navigation](screenshots/navigation.png)
-
-## Analytics
-
-![Analytics](screenshots/analytics.png)
-```
-
----
 
 # ⚡ Installation
 
