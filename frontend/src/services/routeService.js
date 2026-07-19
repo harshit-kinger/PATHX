@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/routes/optimize";
+const API_URL = "https://pathx-backend.onrender.com/api/routes/optimize";
 
 export async function optimizeRoute(payload) {
 

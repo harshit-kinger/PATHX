@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/emergency";
+const API_URL = "https://pathx-backend.onrender.com/api/emergency";
 
 export async function getEmergencyStatus() {
 

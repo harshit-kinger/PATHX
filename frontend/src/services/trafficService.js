@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/traffic";
+const API_URL = "https://pathx-backend.onrender.com/api/traffic";
 
 export async function getTraffic() {
 
