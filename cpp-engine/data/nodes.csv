@@ -1,0 +1,21 @@
+id,name,latitude,longitude,type
+1,Sector 17 Plaza,30.7333,76.7794,Intersection
+2,Sector 22 Market,30.7361,76.7825,Intersection
+3,Sector 16 Hospital Chowk,30.7418,76.7748,Intersection
+4,PGIMER,30.7642,76.7756,Hospital
+5,GMCH-32,30.7048,76.7795,Hospital
+6,Sector 15,30.7289,76.7730,Intersection
+7,Sector 21,30.7258,76.7860,Intersection
+8,ISBT-17,30.7396,76.7791,Bus Station
+9,Chandigarh Railway Station,30.7046,76.8013,Transport
+10,Chandigarh Airport,30.6735,76.7885,Airport
+11,ISBT-43,30.7060,76.7648,Bus Station
+12,Elante Mall,30.7059,76.8015,Mall
+13,Sukhna Lake,30.7428,76.8180,Tourist
+14,Rock Garden,30.7522,76.8048,Tourist
+15,Sector 35 Market,30.7245,76.7585,Market
+16,Tribune Chowk,30.7016,76.7798,Intersection
+17,Zirakpur Chowk,30.6425,76.8173,Intersection
+18,Mohali Phase 7,30.7042,76.7177,Market
+19,Panchkula Sector 5,30.6942,76.8570,Government
+20,Police Headquarters,30.7488,76.7867,Police

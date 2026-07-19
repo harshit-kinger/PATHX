@@ -1,0 +1,12 @@
+const API_URL = "http://localhost:5000/api/emergency";
+
+export async function getEmergencyStatus() {
+
+    const response = await fetch(API_URL);
+
+    if (!response.ok) {
+        throw new Error("Unable to fetch emergency data.");
+    }
+
+    return await response.json();
+}

@@ -1,0 +1,1 @@
+Raw OpenStreetMap exports will be stored here before preprocessing.
