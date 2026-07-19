@@ -12,6 +12,7 @@ add_executable(PATHX
     src/Graph.cpp
     src/CSVLoader.cpp
     src/Dijkstra.cpp
+    src/AStar.cpp
     src/NodeLoader.cpp
     src/JSONBuilder.cpp
 
