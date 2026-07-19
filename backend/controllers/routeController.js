@@ -9,10 +9,9 @@ exports.optimizeRoute = (req, res) => {
         destination
     } = req.body;
 
-    const cppExecutable = path.join(
-        __dirname,
-        "../../cpp-engine/test.exe"
-    );
+    const cppExecutable = process.platform === "win32"
+    ? path.join(__dirname, "../../cpp-engine/test.exe")
+    : path.join(__dirname, "../../cpp-engine/build/PATHX");
 
     const jsonPath = path.join(
         __dirname,

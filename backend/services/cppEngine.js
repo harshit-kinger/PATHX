@@ -4,10 +4,9 @@ const path = require("path");
 function executeRoutingEngine() {
     return new Promise((resolve, reject) => {
 
-        const executable = path.join(
-            __dirname,
-            "../../cpp-engine/test.exe"
-        );
+        const executable = process.platform === "win32"
+    ? path.join(__dirname, "../../cpp-engine/test.exe")
+    : path.join(__dirname, "../../cpp-engine/build/PATHX");
 
         exec(executable, (error, stdout, stderr) => {
 
